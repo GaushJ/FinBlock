@@ -1,0 +1,40 @@
+
+#logo{
+    height:100px;
+    width:350px;
+    margin-left:100px;
+    
+}
+.header{
+    opacity: 0.5;
+}
+#title{
+    font-size: 30px;
+    margin-left: 100px;
+    font-family: 'Kanit', sans-serif;
+    opacity:0.8;
+
+}
+#title_content{
+    font-family: 'Sarabun', sans-serif;
+    color:black;
+    font-size:25px;
+    opacity:0.7;
+}
+a:active{
+    color:black
+}
+a:link{
+    color: black;
+}
+a:hover{
+    color:blue;
+}
+#cover image{
+    float: right;
+    position: absolute;
+  right: 0px;
+  width: 300px;
+    
+    
+}
