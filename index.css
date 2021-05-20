@@ -10,9 +10,10 @@
 }
 #title{
     font-size: 30px;
-    margin-left: 100px;
+    
     font-family: 'Kanit', sans-serif;
     opacity:0.8;
+    
 
 }
 #title_content{
@@ -30,11 +31,47 @@ a:link{
 a:hover{
     color:blue;
 }
-#cover image{
-    float: right;
-    position: absolute;
-  right: 0px;
-  width: 300px;
+.cover_image{
     
+    float:right; 
+    margin-right:10px;
+    width:40%;
+    height:350px;   
+
+
+}
+.index_page{
+    margin-left: 100px;
+    margin-right:100px;
+}
+#module_head{
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom:30px;
     
 }
+
+/* Container for flexboxes */
+.row {
+    display: -webkit-flex;
+    display: flex;
+  }
+  /* Create three equal columns that sits next to each other */
+.column {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 250px;
+    margin:10px 30px 30px 0
+    
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+  .module_url{
+    font-family: 'Overpass', sans-serif;
+  }
