@@ -5,6 +5,7 @@
     margin-left:100px;
     
 }
+
 .header{
     opacity: 0.5;
 }
@@ -31,12 +32,18 @@ a:link{
 a:hover{
     color:blue;
 }
+@media (max-width: 600px){
+    .cover_image{
+        float:none;
+    }
+}
 .cover_image{
     
     float:right; 
     margin-right:10px;
-    width:40%;
-    height:350px;   
+    max-width: 100%;
+    height: auto;
+      
 
 
 }
@@ -75,3 +82,8 @@ a:hover{
   .module_url{
     font-family: 'Overpass', sans-serif;
   }
+  .store_buttons{
+    height: auto;
+    max-width: 125px;
+  }
+  
